@@ -76,6 +76,17 @@ document.getElementById("font-size").addEventListener("keyup",function(){
 
 
 })
+document.getElementById("font-size").addEventListener("click",function(){
+
+    const fontSize=document.getElementById("font-size")
+    const fontSizeNumber=fontSize.value 
+
+    const textarea=textArea("text-area")
+    textarea.style.fontSize=fontSizeNumber+"px"
+
+
+
+})
 
 
 document.getElementById("font-color").addEventListener("blur",function(){
